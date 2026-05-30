@@ -321,6 +321,12 @@ body.is-fixed #menubar li:last-child a {
 	padding-top: 30px;
 }
 
+#main .tonews {
+	width: 70%;
+	text-align: left;
+
+}
+
 /*サブコンテンツ
 ---------------------------------------------------------------------------*/
 #sub {
@@ -811,6 +817,7 @@ a[href$=".pdf"]{
 .ptop {color:#7FB384; font-size: 15px; width: 70%; padding-top: 5px; padding-left: 10px;}
 .wl {width: 96%;}
 .ws {width: 50%;}
+.w80p {width: 80%;}
 .w70p {width: 70%;}
 .w60p {width: 60%;}
 .w50p {width: 50%;}
@@ -970,6 +977,11 @@ body.is-fixed header {
 	overflow: hidden;
 }
 
+#main .tonews {
+	width: 100%;
+	text-align: center;
+}
+
 /*フッター設定
 ---------------------------------------------------------------------------*/
 /*footer内のinner*/
@@ -1027,8 +1039,8 @@ body.s-n #sub,body.s-n #side {display: none;}
 ---------------------------------------------------------------------------*/
 /*ロゴ画像*/
 header #logo {
-	width: 75%;	/*ロゴ画像の幅*/
-	margin-bottom: 10px;
+	width: 100%;	/*ロゴ画像の幅*/
+	margin-bottom: 6px;
 }
 /*TELブロックの電話番号部分*/
 header address .tel {
