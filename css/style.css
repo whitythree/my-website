@@ -866,7 +866,6 @@ header {
 }
 /*ロゴ画像*/
 header #logo {
-	max-width: 100%;
 	width: 100%;		/*ロゴ画像の幅*/
 	position: static;
 	margin: 0 auto;
