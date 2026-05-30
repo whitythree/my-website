@@ -875,6 +875,19 @@ header #logo {
 header address {
 	position: static;
 }
+/*TELブロックの電話番号部分*/
+header address .tel {
+	font-size: 16px;
+	background: url(../images/icon_tel.png) no-repeat left center / 30px;
+	padding-left: 32px;
+}
+
+/*MAILブロックの電話番号部分*/
+header address .mail {
+	font-size: 16px;
+	background: url(../images/icon_mail.png) no-repeat left center / 30px;
+	padding-left: 32px;
+}
 
 /*文字サイズ変更ボタン（※文字サイズを「大」にした時の設定はchange.cssで行う）
 ---------------------------------------------------------------------------*/
@@ -923,7 +936,7 @@ header address {
 /*３本バーブロック*/
 #menubar_hdr {
 	display: block;position: fixed;z-index: 2;
-	top: 20px;	/*上からの配置場所指定*/
+	top: 30px;	/*上からの配置場所指定*/
 	right: 2%;	/*右からの配置場所指定*/
 	border: 1px solid #fff;	/*枠線の幅、線種、色*/
 }
