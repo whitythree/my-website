@@ -866,6 +866,8 @@ header {
 }
 /*ロゴ画像*/
 header #logo {
+	max-width: 100%;
+	width: 100%;		/*ロゴ画像の幅*/
 	position: static;
 	margin: 0 auto;
 }
@@ -975,7 +977,7 @@ body.s-n #sub,body.s-n #side {display: none;}
 .sh {display:block;}
 .pc {display:none;}
 .link {display: block;margin-top: 0px;padding-top: 0px;}
-.ptop {color:#7FB384; font-size: 6px; width: 100%; padding-top: 5px; padding-left: 2px;}
+.ptop {color:#7FB384; font-size: 10px; width: 100%; padding-top: 5px; padding-left: 2px;}
 
 }
 
