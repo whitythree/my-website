@@ -863,6 +863,7 @@ header {
 	background: none;
 	padding: 10px 0;
 	text-align: left;
+	margin-bottom: 10px;
 }
 /*ロゴ画像*/
 header #logo {
@@ -1014,18 +1015,19 @@ body.s-n #sub,body.s-n #side {display: none;}
 /*ロゴ画像*/
 header #logo {
 	width: 75%;	/*ロゴ画像の幅*/
+	margin-bottom: 10px;
 }
 /*TELブロックの電話番号部分*/
 header address .tel {
-	font-size: 18px;
-	background: url(../images/icon_tel.png) no-repeat left center / 24px;
+	font-size: 16px;
+	background: url(../images/icon_tel.png) no-repeat left center / 30px;
 	padding-left: 29px;
 }
 
 /*MAILブロックの電話番号部分*/
 header address .mail {
-	font-size: 18px;
-	background: url(../images/icon_mail.png) no-repeat left center / 24px;
+	font-size: 16px;
+	background: url(../images/icon_mail.png) no-repeat left center / 30px;
 	padding-left: 29px;
 }
 
