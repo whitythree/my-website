@@ -975,6 +975,7 @@ body.s-n #sub,body.s-n #side {display: none;}
 .sh {display:block;}
 .pc {display:none;}
 .link {display: block;margin-top: 0px;padding-top: 0px;}
+.ptop {color:#7FB384; font-size: 8px; width: 100%; padding-top: 5px; padding-left: 10px;}
 
 }
 
