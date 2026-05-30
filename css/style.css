@@ -866,7 +866,7 @@ header {
 }
 /*ロゴ画像*/
 header #logo {
-	width: 100%;		/*ロゴ画像の幅*/
+	width: 70%;		/*ロゴ画像の幅*/
 	position: static;
 	margin: 0 auto;
 }
@@ -1013,20 +1013,20 @@ body.s-n #sub,body.s-n #side {display: none;}
 ---------------------------------------------------------------------------*/
 /*ロゴ画像*/
 header #logo {
-	width: 50%;	/*ロゴ画像の幅*/
+	width: 80%;	/*ロゴ画像の幅*/
 }
 /*TELブロックの電話番号部分*/
 header address .tel {
-	font-size: 20px;
-	background: url(../images/icon_tel.png) no-repeat left center / 18px;
-	padding-left: 25px;
+	font-size: 18px;
+	background: url(../images/icon_tel.png) no-repeat left center / 24px;
+	padding-left: 29px;
 }
 
 /*MAILブロックの電話番号部分*/
 header address .mail {
-	font-size: 20px;
-	background: url(../images/icon_mail.png) no-repeat left center / 18px;
-	padding-left: 25px;
+	font-size: 18px;
+	background: url(../images/icon_mail.png) no-repeat left center / 24px;
+	padding-left: 29px;
 }
 
 /*メインコンテンツ
