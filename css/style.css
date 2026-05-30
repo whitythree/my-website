@@ -383,7 +383,6 @@ body.is-fixed #menubar li:last-child a {
 }
 #sub .box1 .submenu li a {
 	padding: 5px 13px;	/*上下、左右へのメニュー内の余白*/
-	background: #fff;	/*背景色*/
 	background: #fff url(../images/arrow4.png) no-repeat 2px center / 10px;	/*矢印アイコンの読み込み。左から10px、上下中央に配置。幅10px。*/
 }
 
